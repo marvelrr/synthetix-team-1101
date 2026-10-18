@@ -2,7 +2,7 @@
 
 **Team 1101 – WoW0** · HK Inter-University GenAI Hackathon for SDGs 2026
 
-**Synthetic simulation — not real user research**
+**Synthetic simulation**
 
 Synthetix helps Hong Kong SME owners get structured AI feedback on marketing and product copy before spending on a launch. Authored personas can flag possible confusion, hesitation and missing information. The owner decides what to validate with real customers.
 
