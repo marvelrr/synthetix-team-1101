@@ -1,0 +1,9 @@
+........................................................................ [ 51%]
+....................................................................     [100%]
+140 passed in 213.79s (0:03:33)
+
+18 October 2026 lightweight checks after the evidence/evaluation changes:
+- 24 mocked evaluator checks passed (0.11 seconds).
+- Two mocked observation/evidence-helper checks passed (0.04 seconds).
+- No new browser tests or full-suite rerun; the 140-test result above is the previous full run.
+- DeepSeek demo: one completed concept user and one separate recorded-evidence review; no new product visits.

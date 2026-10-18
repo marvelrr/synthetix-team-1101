@@ -1,0 +1,20 @@
+[
+  {
+    "task_id": "T1",
+    "instruction": "Find the monthly price of the Basic plan",
+    "success_check": "text_visible:HK$268 per month",
+    "max_steps": 15
+  },
+  {
+    "task_id": "T2",
+    "instruction": "Check whether RefillHK delivers to Kwun Tong",
+    "success_check": "text_visible:Kwun Tong",
+    "max_steps": 15
+  },
+  {
+    "task_id": "T3",
+    "instruction": "Start the free trial using the test details provided",
+    "success_check": "url_contains:/welcome.html",
+    "max_steps": 15
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "spec_version": "hk-starter-1.0",
+  "description": "Illustrative Hong Kong adult profiles for early product exploration. Segment weights and all traits below are authored assumptions, not population estimates.",
+  "segments": [
+    {
+      "name": "Busy working adults",
+      "weight": 4,
+      "attributes": {"age_band": ["25–34", "35–44"], "district_type": ["urban Kowloon", "Hong Kong Island"], "occupation": ["office employee", "self-employed professional"], "tech_comfort": ["high", "moderate"], "price_sensitivity": ["moderate", "high"], "language_preference": ["English", "Traditional Chinese"]},
+      "sourced_facts": [],
+      "authored_assumptions": ["Illustrative working-adult segment; weight is an authored assumption.", "Household routines, technology comfort and price sensitivity are invented exploration traits, not measured facts."],
+      "languages": ["en", "zh-Hant"]
+    },
+    {
+      "name": "Household organisers",
+      "weight": 3,
+      "attributes": {"age_band": ["35–44", "45–54"], "district_type": ["New Territories new town", "urban Kowloon"], "occupation": ["caregiver", "part-time employee", "full-time employee"], "tech_comfort": ["moderate", "low"], "price_sensitivity": ["high", "moderate"], "language_preference": ["Traditional Chinese", "English"]},
+      "sourced_facts": [],
+      "authored_assumptions": ["Illustrative household-organiser segment; weight is an authored assumption.", "Convenience and refill interest are hypotheses to explore, not evidence of demand."],
+      "languages": ["zh-Hant", "en"]
+    },
+    {
+      "name": "Budget-conscious young adults",
+      "weight": 2,
+      "attributes": {"age_band": ["18–24", "25–34"], "district_type": ["urban Kowloon", "New Territories new town"], "occupation": ["student", "early-career employee"], "tech_comfort": ["high", "moderate"], "price_sensitivity": ["high", "very high"], "language_preference": ["English", "Traditional Chinese"]},
+      "sourced_facts": [],
+      "authored_assumptions": ["Illustrative young-adult segment; weight is an authored assumption.", "Budget sensitivity and sustainable-product interest are invented persona traits."],
+      "languages": ["en", "zh-Hant"]
+    },
+    {
+      "name": "Careful digital adopters",
+      "weight": 1,
+      "attributes": {"age_band": ["55–64", "65+"], "district_type": ["urban Kowloon", "New Territories"], "occupation": ["retired", "part-time employee"], "tech_comfort": ["low", "moderate"], "price_sensitivity": ["moderate", "high"], "language_preference": ["Traditional Chinese"]},
+      "sourced_facts": [],
+      "authored_assumptions": ["Illustrative careful-adopter segment; weight is an authored assumption.", "Technology comfort is sampled independently; age does not establish an individual's digital ability."],
+      "languages": ["zh-Hant"]
+    }
+  ]
+}
