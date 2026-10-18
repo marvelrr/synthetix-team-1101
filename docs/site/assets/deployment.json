@@ -1,4 +1,4 @@
 {
   "live_app_url": null,
-  "status": "Cloud account connection pending; the recorded multi-profile demonstration is available without an API key."
+  "status": "Recorded-only deployment. Fresh model requests are not enabled."
 }
