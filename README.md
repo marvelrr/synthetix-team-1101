@@ -2,76 +2,100 @@
 
 **Team 1101 – WoW0** · HK Inter-University GenAI Hackathon for SDGs 2026
 
+Synthetix gives Hong Kong small businesses AI feedback on marketing and product copy. Several authored customer profiles independently review the same material, then the owner can inspect the feedback, shared concerns and differences.
+
 **Synthetic simulation**
 
-Synthetix helps Hong Kong SME owners get structured AI feedback on marketing and product copy before spending on a launch. Authored personas can flag possible confusion, hesitation and missing information. The owner decides what to validate with real customers.
+## Judges: start here
 
-The team’s goal is comparative copy feedback. Reliable comparative ranking, Cantonese performance, customer usefulness and willingness to pay are not yet validated.
+### [Open the five-profile demonstration](https://marvelrr.github.io/synthetix-team-1101/)
 
-## See the recorded prototype without starting services
+No download, installation, login or API key is needed to explore the recorded demonstration.
 
-1. Open [`saved-demo/Synthetix_Demo.html`](saved-demo/Synthetix_Demo.html) after downloading this repository. GitHub displays the HTML source rather than running the page.
-2. Or view the [actual concept report](saved-demo/Synthetix_Concept_DeepSeek_Report.pdf) directly on GitHub.
-3. View the [recorded interactive evidence review](saved-demo/Synthetix_Recorded_Interactive_DeepSeek_Report.pdf).
+1. **See the product and input:** RefillHK is an invented cleaning-refill business used as a repeatable test case. Open its demonstration website and inspect the exact material reviewed.
+2. **Inspect five customer profiles:** price-sensitive, busy, sceptical, first-time refill and sustainability-focused. Their priorities are authored assumptions.
+3. **Explore actual results:** compare the independently generated ratings, read every response and inspect the supporting statements behind combined concern counts.
 
-RefillHK is an invented demonstration business. Synthetix is the cross-sector feedback product.
+The walkthrough replays **actual saved results**. It does not pretend to make a fresh model request when a visitor advances a step. New reviews of visitors' own copy are not enabled on this recorded site.
 
-The concept example uses one authored profile and supplied material. All browser tasks are `not_attempted`, and ease of use is not assessable. The saved browser example records a passed delivery check and failed price-discovery and signup tasks. DeepSeek later reviewed the old evidence. These examples do not establish real customer demand or a before/after improvement.
+| Evidence | Open |
+|---|---|
+| Guided demonstration | [Public judging showcase](https://marvelrr.github.io/synthetix-team-1101/) |
+| Product being reviewed | [RefillHK demonstration website](https://marvelrr.github.io/synthetix-team-1101/site/refillhk/) |
+| Complete five-profile report | [PDF](docs/site/assets/refillhk-five-persona-report.pdf) |
+| Individual review records | [CSV](docs/site/assets/refillhk-five-persona-reviews.csv) |
+| Exact input, profiles, responses and usage | [JSON](docs/site/assets/refillhk-five-persona.json) |
 
-## What is implemented
+## What this demonstration actually ran
 
-- Configurable authored profiles with deterministic generation.
-- Concept evaluation and browser-task execution with code success checks.
-- Individual browser contexts, bounded actions, safety stops, usage records, retries and cancellation.
-- A Streamlit interface, reports, evidence views, comparison interface, and PDF/CSV exports.
-- Shared Pydantic models and SQLite storage under the frozen v1.0 contract.
+Recorded on **19 October 2026, 00:52 HKT** using remote **DeepSeek `deepseek-flash`**.
 
-Reliable autonomous navigation remains incomplete. The recorded browser agent used Qwen2.5 3B. Recent concept feedback used DeepSeek `deepseek-flash`. A complete browser run with DeepSeek is not demonstrated.
+| Measurement | Actual result |
+|---|---|
+| Requested / completed profiles | **5 / 5** |
+| Failed / cancelled profiles | **0 / 0** |
+| Distinct authored profiles | **5** |
+| Execution | Concept review, concurrency 1 |
+| Wall time | **129.481 seconds** for this run |
+| Model calls | **8**, including schema repairs |
+| Input / output tokens | **20,583 / 21,983** |
+| Cost in HKD | **Unknown**; pricing was not configured |
+| Browser visits / local model execution | **0 / none** |
 
-## Source layout
+The sustainability-focused profile rated appeal and intention to use 4/5. The remaining four gave 3/5 on those dimensions. The saved responses show these differences; presentation code does not assign the scores.
 
-- `engine/`: profiles, browser agent, evaluation and job worker.
-- `app/`: Streamlit product interface, aggregation and exports.
-- `demo_product/`: invented RefillHK v1/v2 static sites.
-- `contracts/`: unchanged shared models, database and LLM wrapper.
-- `saved-demo/`: real saved examples with explicit dates and provenance.
+Combined concern labels use a transparent keyword index over actual problem statements. Code counts distinct supporting profiles and shows the exact evidence. Topics can overlap. These counts describe the five chosen viewpoints, not a representative customer survey or predicted sales. Ease of use is unassessed because this is a concept review.
 
-## Optional local setup with a remote provider
+This judging-site update and five-profile evidence were prepared **after the 18 October slide submission**, on 19 October. The recording date remains visible. Earlier source history and original reports remain available.
 
-Python 3.11 is required. Create a virtual environment outside the repository, then install `requirements.txt`. Copy `.env.example` to a private `.env` and configure an OpenAI-compatible remote provider.
+## How the product works
 
-```dotenv
-LLM_BASE_URL=https://api.deepseek.com
-LLM_API_KEY=YOUR_PRIVATE_KEY
-LLM_MODEL=YOUR_PROVIDER_SUPPORTED_MODEL
-LLM_JSON_MODE=1
-SYNTHETIX_FAKE_ENGINE=0
-SYNTHETIX_LOCAL_INFERENCE_ALLOWED=0
-```
+**Product copy → authored profiles → independent DeepSeek reviews → validated structured output → code-computed report**
 
-Never commit `.env` or API keys. The repository contains no API key, model weights, private database or customer data.
+Profiles are generated reproducibly. Each model review receives the same product material and its own profile. Pydantic validates responses, with at most one repair per evaluation attempt. Code computes ratings, denominators, status accounting and the concern index. Original feedback remains inspectable by user ID.
+
+## Privacy and access
+
+The public judging site serves fictional product material, authored profiles and recorded output. It accepts no private submissions, makes no model requests, uses no analytics or third-party scripts, and contains no API key.
+
+Private `.env` files, authentication configuration, databases and model weights are excluded. Local inference remains disabled.
+
+The optional session-isolated Streamlit entry point at `app/judge_demo.py` is **not hosted or enabled for fresh reviews** in this recorded deployment. Its [deployment guide](deploy/README.md) explains server-side secrets, access control and request limits. The legacy `app/main.py` is a local interface with a shared database; it is not the public judging entry point.
+
+## Run the application
+
+For the recorded judging viewer, use Python 3.11:
 
 ```bash
-pip install -r requirements.txt
-playwright install chromium
-streamlit run app/main.py
+pip install -r app/requirements.txt
+streamlit run app/judge_demo.py
 ```
 
-Starting a run may incur provider cost. Keep local inference disabled. The saved demo requires no inference, installation or running service. The legacy local-provider modules remain in the source for provenance; they are not the recommended demo path. `app/launch.py` has older local-provider assumptions, so use the Streamlit command above for remote-provider configuration.
+The recorded report needs no API key. Fresh reviews require separate server configuration and may incur API charges. See [deployment instructions](deploy/README.md). Never commit credentials. For the legacy full local interface, see [app/README.md](app/README.md).
 
-## Tests and measured limits
+## Source and verification
+
+- `engine/`: reproducible profiles, evidence-constrained evaluation and worker.
+- `app/`: aggregation, reports and UI, including the isolated judging entry point.
+- `contracts/`: unchanged shared contract v1.0.
+- `docs/site/`: recorded judging showcase and actual five-profile evidence.
+- `demo_product/`: invented RefillHK test product.
+- `saved-demo/`: earlier dated examples.
+
+The new judging support/UI and aggregation checks pass **29 mocked tests** with no model, browser or server calls. They cover independent reviews, failure accounting, repair limits, provider restrictions, secret-safe rendering and session UI behavior. Static checks cover actual-record rendering, indexed evidence, tabs, text insertion and accessibility references.
 
 ```bash
-python -m pytest engine/tests app/tests
+python -m pytest app/tests/test_judge_support.py app/tests/test_aggregate.py
 ```
 
-Tests use mocked LLM responses. The earlier recorded full suite passed 140 tests. After later evidence changes, 24 mocked evaluator checks and two evidence-helper checks passed; the full browser suite was not rerun. See [`docs/prototype-test-results.txt`](docs/prototype-test-results.txt).
+Earlier receipts remain in [docs/prototype-test-results.txt](docs/prototype-test-results.txt). Five concept reviews do not establish browser capacity or performance at larger counts.
 
-Profile allocation is tested through 10,000 profiles. Browser capacity at that scale is not measured. The proposed 10- and 50-user browser benchmarks have not happened. Unknown HKD cost remains unknown.
+## Earlier saved evidence
 
-## Ethical boundaries and next validation
+- [Original one-profile concept report](saved-demo/Synthetix_Concept_DeepSeek_Report.pdf).
+- [Older browser evidence review](saved-demo/Synthetix_Recorded_Interactive_DeepSeek_Report.pdf), preserving its recorded successes and failures.
 
-Synthetic personas are not representative people. No conversion, customer acquisition cost or advertising-return forecast is claimed. Before a pilot, obtain permission for supplied material and establish sensitive-data, provider, retention and redaction controls. Human reviewers must be able to challenge the feedback. Owner interviews and Cantonese/mixed-language validation remain next steps.
+RefillHK is the demonstration input. Synthetix is the feedback product. No moderated persona debate, validated sales forecast or deterministic CAC/ROAS calculator is claimed as implemented. Real-customer agreement and owner usefulness still need evaluation.
 
 ## Team
 

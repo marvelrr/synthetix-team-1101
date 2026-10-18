@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore a recorded Synthetix review: one startup concept, several independent AI profiles, and feedback you can trace to its source.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>Synthetix — see the product in action</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to demo</a>
+<header class="header shell">
+  <a class="brand" href="./" aria-label="Synthetix home"><span class="brand-mark" aria-hidden="true">S</span>Synthetix</a>
+  <nav aria-label="Resources"><a href="https://github.com/marvelrr/synthetix-team-1101">Source code <span aria-hidden="true">↗</span></a><a href="refillhk/index.html" target="_blank" rel="noopener">Explore RefillHK <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="main" class="shell">
+  <section class="hero">
+    <div class="eyebrow">TEAM 1101 · WoW0 · TRACK 4</div>
+    <h1>One message.<br>Several perspectives.<br><em>A clearer next step.</em></h1>
+    <p class="intro">Synthetix helps small businesses review marketing and product copy before a launch. Independent AI profiles flag confusing claims, unanswered questions and possible reasons to hesitate.</p>
+    <div class="hero-actions"><button class="button primary" id="start-tour">Explore the recorded demo <span aria-hidden="true">→</span></button><a class="button secondary" href="https://github.com/marvelrr/synthetix-team-1101/blob/main/app/README.md">View application setup</a></div>
+    <p class="quiet">Synthetic simulation. AI profiles are authored perspectives; their ratings are not customer demand forecasts.</p>
+  </section>
+
+  <aside class="provenance" aria-label="Demo provenance"><span class="pill">RECORDED DEMO</span><p id="provenance-text" role="status">Loading the published evidence…</p></aside>
+  <div id="load-error" class="notice" hidden><h2>Evidence is not published yet</h2><p>This page does not invent results. The recorded review data must be available before this walkthrough can display feedback.</p><p><a href="https://github.com/marvelrr/synthetix-team-1101">View the repository and its saved reports</a></p><button class="button secondary" id="retry">Reload evidence</button></div>
+
+  <section id="demo" class="demo" aria-label="Product walkthrough" hidden>
+    <div class="section-head"><div><div class="eyebrow">FOLLOW THE EVIDENCE</div><h2>See exactly how it works</h2></div><p>Submitted content → independent reviews → combined report</p></div>
+    <div class="steps" role="tablist" aria-label="Walkthrough steps">
+      <button id="tab-product" class="step active" role="tab" aria-controls="panel-product" aria-selected="true" data-step="product"><span class="step-number">1</span><span>Product input<small>What the AI received</small></span></button>
+      <button id="tab-profiles" class="step" role="tab" aria-controls="panel-profiles" aria-selected="false" tabindex="-1" data-step="profiles"><span class="step-number">2</span><span>AI profiles<small>Different priorities</small></span></button>
+      <button id="tab-results" class="step" role="tab" aria-controls="panel-results" aria-selected="false" tabindex="-1" data-step="results"><span class="step-number">3</span><span>Review & report<small>Trace every finding</small></span></button>
+    </div>
+
+    <section id="panel-product" class="panel" role="tabpanel" aria-labelledby="tab-product" tabindex="0">
+      <div class="two-col"><div><span class="pill subtle">FICTIONAL DEMONSTRATION BUSINESS</span><h2 id="product-name">RefillHK</h2><p id="value-proposition"></p><p class="quiet">RefillHK is an invented Hong Kong household-refill startup. It gives us a consistent test case; the Synthetix reviews shown here are actual recorded model outputs.</p><a href="refillhk/index.html" class="text-link" target="_blank" rel="noopener">Open the demonstration product ↗</a></div><div class="callout"><h3>What this run tested</h3><p id="mode-explanation">A concept review of the supplied material. No browser tasks or purchases were performed.</p><p>Profiles review the same material separately. Their individual responses are saved before report metrics are calculated in code.</p></div></div>
+      <details class="material" open><summary>Exact submitted material</summary><pre id="concept-material"></pre></details>
+      <div class="panel-bottom"><span class="quiet">The input is visible so you can judge whether the feedback fits.</span><button class="button primary next-step" data-next="profiles">Meet the profiles →</button></div>
+    </section>
+
+    <section id="panel-profiles" class="panel" role="tabpanel" aria-labelledby="tab-profiles" tabindex="0" hidden>
+      <h2>Same content. Different priorities.</h2><p class="section-intro">These are authored synthetic profiles, not recruited participants. Open any profile to see its attributes and provenance.</p><div id="profiles-grid" class="profiles-grid"></div>
+      <div class="panel-bottom"><span class="quiet">Each completed profile has its own recorded evaluation.</span><button class="button primary next-step" data-next="results">See the combined report →</button></div>
+    </section>
+
+    <section id="panel-results" class="panel" role="tabpanel" aria-labelledby="tab-results" tabindex="0" hidden>
+      <div class="section-head"><div><div class="eyebrow">ACTUAL SAVED OUTPUTS</div><h2>From individual reviews to a report</h2></div><div class="download-links" aria-label="Download recorded evidence"><a href="assets/refillhk-five-persona-report.pdf" class="button secondary" download>Report PDF ↓</a><a href="assets/refillhk-five-persona-reviews.csv" class="button secondary" download>Reviews CSV ↓</a><a id="download-data" href="assets/refillhk-five-persona.json" class="button secondary" download>Evidence JSON ↓</a></div></div>
+      <div id="coverage" class="coverage" aria-label="Run coverage"></div><p id="interim" class="notice" hidden>Interim report — this run is not fully settled.</p>
+      <section class="report-block" aria-labelledby="concerns-title"><div class="section-head"><div><h3 id="concerns-title">Concerns to investigate</h3><p>Supporting profiles are counted in code. Expand a concern to inspect its evidence.</p></div></div><p id="summary-method" class="quiet"></p><div id="findings" class="findings"></div></section>
+      <section class="report-block" aria-labelledby="ratings-title"><h3 id="ratings-title">How the profiles rated the material</h3><p class="quiet">Only completed profiles enter these metrics. Missing and not-assessable ratings are excluded from means.</p><div id="signals" class="signals"></div><div id="ratings" class="ratings"></div></section>
+      <section class="report-block" aria-labelledby="individual-title"><h3 id="individual-title">Inspect each independent review</h3><p class="quiet">Look for agreement and disagreement. A low score or suggestion is an AI perspective to investigate, not a measured customer response.</p><div id="individual-reviews" class="individual-reviews"></div></section>
+      <details class="provenance-details"><summary>Run provenance and resource usage</summary><dl id="provenance-details"></dl></details>
+      <div class="panel-bottom"><button class="button secondary" id="replay">Replay from the input ↶</button><a class="text-link" href="https://github.com/marvelrr/synthetix-team-1101">Inspect the implementation ↗</a></div>
+    </section>
+  </section>
+
+  <section class="live-section"><div><div class="eyebrow">TRY YOUR OWN CONTENT</div><h2>Want a fresh review?</h2><p id="live-status">Live review deployment pending. This showcase replays saved evidence and makes no API calls.</p></div><a id="live-link" class="button primary" hidden target="_blank" rel="noopener">Open the live application ↗</a></section>
+</main>
+<footer class="footer shell"><p><strong>Synthetix · Team 1101 WoW0</strong><br>We Optimize Workflows: 0 to 1.</p><p>Synthetic simulation · Recorded evidence, explicit provenance.<br>No API key, login or personal information is required to view this page.</p></footer>
+</body>
+</html>

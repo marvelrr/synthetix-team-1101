@@ -49,3 +49,7 @@ Times are measured, not capacity promises. Average seconds per user includes rec
 - run-20261017-195303-6987: Native Chromium / Qwen2.5 3B Metal diagnostic. One user completed on its first attempt with a valid saved evaluation and 31 screenshots. T1 and T3 failed at 15 steps; T2 passed in one step. All ratings were not assessable; evaluation wrongly denied observed failures and attached a price-task problem to completed T2. These feedback defects are flagged in report metadata. Tests ran concurrently, so this is not a clean throughput benchmark. Local inference was stopped afterwards at the user's request due to heat.
 
 - run-20261018-010810-d087: DeepSeek concept-only pitching example. One authored persona reviewed supplied v2 material; no browser was started and all three tasks were not_attempted. This is not an interactive capacity benchmark.
+
+## 19 October 2026 — authorized five-profile judging concept run
+
+Run `run-20261019-005227-7dfe`; DeepSeek `deepseek-flash`; concept mode; concurrency1. Requested5 / completed5 / failed0 / cancelled0. Wall129.481s, average25.896s per completed profile including repairs. Model calls8; input tokens20,583; output tokens21,983. Cost: unknown (pricing unset). Browser visits0; local inference disabled. Five distinct authored profiles reviewed identical supplied RefillHK material. Code-computed keyword concern index, no model grouping call. This is one measured concept run, not a browser-capacity benchmark. Recorded after the slide submission.

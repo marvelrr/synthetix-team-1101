@@ -1,0 +1,1554 @@
+{
+  "schema_version": "1.0",
+  "provenance": {
+    "run_id": "run-20261019-005227-7dfe",
+    "kind": "recorded-run",
+    "recorded_at": "2026-10-19T00:52:27.457007+08:00",
+    "recorded_at_hkt": "2026-10-19T00:52:27.457007+08:00",
+    "mode": "concept",
+    "model": "deepseek-flash",
+    "source_material_sha256": "d465e76cd8e33c3fdbda1ea244d7dcffea68e1b44d7e48a15c885bf8d3294eff",
+    "wall_seconds": 129.481,
+    "local_inference": false,
+    "browser_visits": 0,
+    "summary_method": "Code-computed rating statistics and transparent keyword indexing of actual problem text; no summary-model call.",
+    "authorization": "Five-profile remote concept demonstration requested on 19 October 2026 HKT."
+  },
+  "config": {
+    "product_name": "RefillHK",
+    "product_version": "v2-five-profile-concept-demo",
+    "mode": "concept",
+    "product_url": null,
+    "concept_material": "Operator-supplied concept material, extracted from the invented RefillHK v2 static files. These are descriptions and form specifications, not evidence of a product visit. All delivery coverage, plans and environmental positioning are invented prototype details; no real business or measured environmental benefit is claimed.\n\nSupplied file index.html:\nSynthetic simulation — not real user research\nRefillHK\n↗\nPricing\nFAQ\nFree trial\nLess waste. A little less to think about.\nGood cleaning.\nFewer throwaway bottles.\nHousehold cleaning refills, delivered monthly in reusable bottles. An invented Hong Kong startup exploring everyday choices for SDG 12.\nStart free trial\nHow it works\nBasic plan\nHK$268 per month\nThree cleaning refills, reusable bottles and monthly delivery.\nExplore the Basic plan\n01 / Refill\nYour everyday essentials\nConcentrated laundry, dish and surface cleaning refills for your household routine.\n02 / Reuse\nKeep the bottle going\nReturn your empty bottles at your next delivery, ready for another refill.\n03 / Repeat\nA lighter monthly routine\nChoose a plan, try the service and adjust your refill preferences as you learn.\nRefillHK · Invented SDG 12 demonstration\nDelivery areas\nFAQ\nHome\n\nSupplied file plans.html:\nSynthetic simulation — not real user research\nRefillHK\n↗\nPricing\nFAQ\nFree trial\nChoose your refill routine\nA cleaner home.\nA simpler plan.\nMonthly household essentials in reusable bottles. This static prototype does not take payments.\nBasic plan\nEveryday essentials\nHK$268 per month\nThree household cleaning refills: laundry, dish and multi-surface.\nReusable bottles and one scheduled monthly delivery included.\nStart free trial\nFamily plan\nA little more to go around\nHK$398 per month\nFive household cleaning refills for larger households.\nReusable bottles and one scheduled monthly delivery included.\nStart free trial\nRefillHK · Invented SDG 12 demonstration\nDelivery areas\nFAQ\nHome\n\nSupplied file delivery.html:\nSynthetic simulation — not real user research\nRefillHK\n↗\nPricing\nFAQ\nFree trial\nOur delivery neighbourhoods\nA refill route\ncloser to home.\nRefillHK currently includes the following areas in this invented service concept.\nKowloon\nKwun Tong\nWong Tai Sin · Kowloon City · Yau Tsim Mong\nKwun Tong is covered\nHong Kong Island\nEastern · Wan Chai · Central and Western\nNew Territories\nSha Tin · Tsuen Wan · Tseung Kwan O\nRoutes are illustrative for this prototype. Confirm service details with a real provider before making a real decision.\nStart free trial\nRefillHK · Invented SDG 12 demonstration\nDelivery areas\nFAQ\nHome\n\nSupplied file faq.html:\nSynthetic simulation — not real user research\nRefillHK\n↗\nPricing\nFAQ\nFree trial\nA few useful answers\nSmall changes.\nClear answers.\nHow does the refill cycle work?\nIn this concept, your monthly delivery brings cleaning refills and collects your empty reusable bottles.\nWhat comes with the free trial?\nThe trial is a chance to explore a refill routine. This prototype records no registration and takes no payment.\nCan I change my preferences?\nThe concept includes flexible refill preferences. Account management is outside this static demonstration.\nAre the environmental claims verified?\nNo impact figures are claimed here. This invented service explores responsible consumption and production under SDG 12; actual impact would need measurement.\nStart free trial\nRefillHK · Invented SDG 12 demonstration\nDelivery areas\nFAQ\nHome\n\nSupplied file signup.html:\nSynthetic simulation — not real user research\nRefillHK\n↗\nPricing\nFAQ\nFree trial\nTry a different refill routine\nLet’s get you started.\nExplore the free trial with the supplied test details. This is a static demonstration; nothing is registered or transmitted.\nFull name *\nEmail *\nContact phone *\nRegion\nKowloon\nHong Kong Island\nNew Territories\nBuilding name (optional)\nFlat and floor (optional)\nHousehold size\n1–2 people\n3–4 people\n5 or more people\nPreferred refill scent\nUnscented\nCitrus\nDelivery notes (optional)\n* Required. Use the supplied test details only.\nProceed\nRefillHK · Invented SDG 12 demonstration\nDelivery areas\nFAQ\nHome",
+    "value_proposition": "Monthly household cleaning-product refills in reusable bottles, with Basic at HK$268 per month and illustrative Kwun Tong delivery coverage.",
+    "objective": "Independently review the same supplied RefillHK concept material from five explicitly authored priorities. Identify supported strengths, confusing wording, missing details and suggestions. No product visit or usability test is performed.",
+    "audience": {
+      "spec_version": "judge-five-profiles-1.0",
+      "description": "Five deliberately contrasting authored Hong Kong household profiles. One per priority; these are demonstration perspectives, not population estimates.",
+      "segments": [
+        {
+          "name": "Price-sensitive household",
+          "weight": 1.0,
+          "attributes": {
+            "age band": [
+              "35–44"
+            ],
+            "district": [
+              "Kwun Tong"
+            ],
+            "price sensitivity": [
+              "high"
+            ],
+            "tech comfort": [
+              "moderate"
+            ],
+            "priority": [
+              "compare the monthly and per-refill cost with current household spending"
+            ],
+            "review stance": [
+              "will consider convenience, but recurring value must be clear"
+            ]
+          },
+          "sourced_facts": [],
+          "authored_assumptions": [
+            "All persona attributes and equal weights are authored demonstration assumptions. No demographic representativeness is claimed."
+          ],
+          "languages": [
+            "en"
+          ]
+        },
+        {
+          "name": "Busy working adult",
+          "weight": 1.0,
+          "attributes": {
+            "age band": [
+              "25–34"
+            ],
+            "district": [
+              "Kwun Tong"
+            ],
+            "price sensitivity": [
+              "moderate"
+            ],
+            "tech comfort": [
+              "high"
+            ],
+            "priority": [
+              "minimise time spent shopping, managing deliveries and returning bottles"
+            ],
+            "review stance": [
+              "look for a clear practical routine and flexible delivery"
+            ]
+          },
+          "sourced_facts": [],
+          "authored_assumptions": [
+            "All persona attributes and equal weights are authored demonstration assumptions. No demographic representativeness is claimed."
+          ],
+          "languages": [
+            "en"
+          ]
+        },
+        {
+          "name": "Sceptical evidence-seeker",
+          "weight": 1.0,
+          "attributes": {
+            "age band": [
+              "35–44"
+            ],
+            "district": [
+              "Kwun Tong"
+            ],
+            "price sensitivity": [
+              "moderate"
+            ],
+            "tech comfort": [
+              "high"
+            ],
+            "priority": [
+              "understand precise trial terms, service commitments and evidence for claims"
+            ],
+            "review stance": [
+              "question unsupported promises and unclear subscription conditions"
+            ]
+          },
+          "sourced_facts": [],
+          "authored_assumptions": [
+            "All persona attributes and equal weights are authored demonstration assumptions. No demographic representativeness is claimed."
+          ],
+          "languages": [
+            "en"
+          ]
+        },
+        {
+          "name": "First-time refill customer",
+          "weight": 1.0,
+          "attributes": {
+            "age band": [
+              "25–34"
+            ],
+            "district": [
+              "Kwun Tong"
+            ],
+            "price sensitivity": [
+              "moderate"
+            ],
+            "tech comfort": [
+              "moderate"
+            ],
+            "priority": [
+              "understand exactly what arrives, how to use it and how empty bottles are returned"
+            ],
+            "review stance": [
+              "unfamiliar with refill subscriptions and prefers concrete explanations"
+            ]
+          },
+          "sourced_facts": [],
+          "authored_assumptions": [
+            "All persona attributes and equal weights are authored demonstration assumptions. No demographic representativeness is claimed."
+          ],
+          "languages": [
+            "en"
+          ]
+        },
+        {
+          "name": "Sustainability-focused household",
+          "weight": 1.0,
+          "attributes": {
+            "age band": [
+              "25–34"
+            ],
+            "district": [
+              "Kwun Tong"
+            ],
+            "price sensitivity": [
+              "moderate"
+            ],
+            "tech comfort": [
+              "moderate"
+            ],
+            "priority": [
+              "reduce packaging while checking that reuse and collection are practical"
+            ],
+            "review stance": [
+              "interested in reuse but wants transparency on bottle handling and impact evidence"
+            ]
+          },
+          "sourced_facts": [],
+          "authored_assumptions": [
+            "All persona attributes and equal weights are authored demonstration assumptions. No demographic representativeness is claimed."
+          ],
+          "languages": [
+            "en"
+          ]
+        }
+      ]
+    },
+    "user_count": 5,
+    "tasks": [],
+    "seed": 42,
+    "max_concurrency": 1,
+    "budget_hkd": null,
+    "baseline_run_id": null
+  },
+  "users": [
+    {
+      "user_id": "run-20261019-005227-7dfe-u00001",
+      "run_id": "run-20261019-005227-7dfe",
+      "segment": "Price-sensitive household",
+      "profile": {
+        "age band": "35–44",
+        "district": "Kwun Tong",
+        "price sensitivity": "high",
+        "tech comfort": "moderate",
+        "priority": "compare the monthly and per-refill cost with current household spending",
+        "review stance": "will consider convenience, but recurring value must be clear",
+        "language": "en"
+      },
+      "sourced_facts": [],
+      "authored_assumptions": [
+        "All persona attributes and equal weights are authored demonstration assumptions. No demographic representativeness is claimed."
+      ],
+      "generator_version": "personas-1.0",
+      "status": "completed",
+      "attempts": 1,
+      "failure_reason": null
+    },
+    {
+      "user_id": "run-20261019-005227-7dfe-u00002",
+      "run_id": "run-20261019-005227-7dfe",
+      "segment": "Busy working adult",
+      "profile": {
+        "age band": "25–34",
+        "district": "Kwun Tong",
+        "price sensitivity": "moderate",
+        "tech comfort": "high",
+        "priority": "minimise time spent shopping, managing deliveries and returning bottles",
+        "review stance": "look for a clear practical routine and flexible delivery",
+        "language": "en"
+      },
+      "sourced_facts": [],
+      "authored_assumptions": [
+        "All persona attributes and equal weights are authored demonstration assumptions. No demographic representativeness is claimed."
+      ],
+      "generator_version": "personas-1.0",
+      "status": "completed",
+      "attempts": 1,
+      "failure_reason": null
+    },
+    {
+      "user_id": "run-20261019-005227-7dfe-u00003",
+      "run_id": "run-20261019-005227-7dfe",
+      "segment": "Sceptical evidence-seeker",
+      "profile": {
+        "age band": "35–44",
+        "district": "Kwun Tong",
+        "price sensitivity": "moderate",
+        "tech comfort": "high",
+        "priority": "understand precise trial terms, service commitments and evidence for claims",
+        "review stance": "question unsupported promises and unclear subscription conditions",
+        "language": "en"
+      },
+      "sourced_facts": [],
+      "authored_assumptions": [
+        "All persona attributes and equal weights are authored demonstration assumptions. No demographic representativeness is claimed."
+      ],
+      "generator_version": "personas-1.0",
+      "status": "completed",
+      "attempts": 1,
+      "failure_reason": null
+    },
+    {
+      "user_id": "run-20261019-005227-7dfe-u00004",
+      "run_id": "run-20261019-005227-7dfe",
+      "segment": "First-time refill customer",
+      "profile": {
+        "age band": "25–34",
+        "district": "Kwun Tong",
+        "price sensitivity": "moderate",
+        "tech comfort": "moderate",
+        "priority": "understand exactly what arrives, how to use it and how empty bottles are returned",
+        "review stance": "unfamiliar with refill subscriptions and prefers concrete explanations",
+        "language": "en"
+      },
+      "sourced_facts": [],
+      "authored_assumptions": [
+        "All persona attributes and equal weights are authored demonstration assumptions. No demographic representativeness is claimed."
+      ],
+      "generator_version": "personas-1.0",
+      "status": "completed",
+      "attempts": 1,
+      "failure_reason": null
+    },
+    {
+      "user_id": "run-20261019-005227-7dfe-u00005",
+      "run_id": "run-20261019-005227-7dfe",
+      "segment": "Sustainability-focused household",
+      "profile": {
+        "age band": "25–34",
+        "district": "Kwun Tong",
+        "price sensitivity": "moderate",
+        "tech comfort": "moderate",
+        "priority": "reduce packaging while checking that reuse and collection are practical",
+        "review stance": "interested in reuse but wants transparency on bottle handling and impact evidence",
+        "language": "en"
+      },
+      "sourced_facts": [],
+      "authored_assumptions": [
+        "All persona attributes and equal weights are authored demonstration assumptions. No demographic representativeness is claimed."
+      ],
+      "generator_version": "personas-1.0",
+      "status": "completed",
+      "attempts": 1,
+      "failure_reason": null
+    }
+  ],
+  "task_results": [],
+  "evaluations": [
+    {
+      "run_id": "run-20261019-005227-7dfe",
+      "user_id": "run-20261019-005227-7dfe-u00001",
+      "mode": "concept",
+      "ratings": {
+        "appeal": {
+          "score": 3,
+          "not_assessable_reason": null
+        },
+        "usefulness": {
+          "score": 3,
+          "not_assessable_reason": null
+        },
+        "ease_of_use": {
+          "score": null,
+          "not_assessable_reason": "no relevant product task attempted"
+        },
+        "trust": {
+          "score": 3,
+          "not_assessable_reason": null
+        },
+        "intention_to_use": {
+          "score": 3,
+          "not_assessable_reason": null
+        }
+      },
+      "rating_reasons": "Appeal (3): The offer is easy to grasp — a monthly refill routine in reusable bottles, Basic at HK$268 per month, Family at HK$398 per month, and an explicit statement that Kwun Tong is covered. For a price-sensitive Kwun Tong household the reusable-bottle return model and the free-trial entry point are attractive, but the material never says how much cleaning product a 'refill' is, so the monthly figure cannot be turned into per-refill or per-use value; that holds appeal at mixed. Usefulness (3): My district coverage is stated and the plans map onto household size (three refills Basic, five Family), which fits an everyday cleaning routine. However my priority is comparing monthly and per-refill cost with current household spending, and there is no refill volume, no per-refill breakdown, no delivery fee, no commitment or cancellation terms, and no detail on what the free trial contains. Directionally relevant but missing the comparison basis. Trust (3): The material is candid — it labels itself an invented demonstration, states no impact figures are claimed, calls the routes illustrative, and says nothing is registered or transmitted. That honesty supports credibility, but key commercial facts that would make the price credible are absent: product sizes, trial-to-paid terms, bottle-return conditions, and payment or cancellation detail. Intention to use (3): A free trial with stated Kwun Tong coverage is a plausible low-commitment way to test the routine, so I would consider it; the recurring HK$268 question stays unresolved without per-refill quantities and a comparison against what I already spend, so I would not commit to the monthly plan on this material alone.",
+      "strengths": [
+        "Kwun Tong is explicitly listed among covered delivery areas, so district fit is answered directly rather than left to guesswork",
+        "Two separate monthly prices are shown (HK$268 Basic, HK$398 Family) together with the number of refills in each, giving a basic size-to-price mapping",
+        "The Refill / Reuse / Repeat explanation makes the bottle-return cycle understandable in a few lines",
+        "Plainly worded statements that this is an invented demonstration, that no impact figures are claimed, and that the prototype takes no payment",
+        "A free trial is offered as a low-commitment entry point for a household unwilling to lock into a recurring charge immediately"
+      ],
+      "problems": [
+        {
+          "text": "No refill volume or unit size is given for the three Basic refills or five Family refills, so the monthly price cannot be converted into a per-refill or per-use cost — the comparison this household most wants against current spending.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "The free trial is described only as a chance to explore a refill routine; duration, what is delivered, and whether it rolls into the HK$268 monthly charge are not stated.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "Recurring-cost conditions are missing: no delivery fee, minimum term, pause or cancellation terms, and no bottle-return or deposit consequence if a reusable bottle is not handed back.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "The signup form captures only a broad Region (Kowloon, Hong Kong Island, New Territories) with no district selection, so coverage cannot be confirmed against the delivery list at signup and address details sit in optional free-text fields.",
+          "task_id": null,
+          "severity": "minor"
+        }
+      ],
+      "suggestions": [
+        "Add the refill volume or concentrate yield for each plan and show a derived per-refill cost alongside the HK$268 and HK$398 monthly prices so a household can compare directly with supermarket spending",
+        "State the free-trial duration, what is included, and exactly when and at what price it becomes a paid subscription",
+        "Publish delivery fee, minimum commitment, pause/cancel rules and any bottle-return or deposit condition in the pricing or FAQ material",
+        "Replace or supplement the broad Region dropdown with a district selector checked against the listed delivery neighbourhoods, including Kwun Tong, before proceeding",
+        "Indicate the format of the laundry, dish and multi-surface refills (concentrate strength, bottle compatibility) so the reuse step is concrete rather than abstract"
+      ],
+      "pricing_feedback": "The only literal prices supplied are HK$268 per month for Basic (three refills) and HK$398 per month for Family (five refills). The monthly headline is clear, but no refill volume or per-refill figure is given, so per-refill cost is not stated and cannot be checked against current household spending. No delivery fee, minimum term or trial-to-paid price transition is shown, leaving the true recurring outlay unknown for a price-sensitive household. Both plans include reusable bottles and one scheduled monthly delivery, but bottle-return conditions are not described in cost terms."
+    },
+    {
+      "run_id": "run-20261019-005227-7dfe",
+      "user_id": "run-20261019-005227-7dfe-u00002",
+      "mode": "concept",
+      "ratings": {
+        "appeal": {
+          "score": 3,
+          "not_assessable_reason": null
+        },
+        "usefulness": {
+          "score": 4,
+          "not_assessable_reason": null
+        },
+        "ease_of_use": {
+          "score": null,
+          "not_assessable_reason": "no relevant product task attempted"
+        },
+        "trust": {
+          "score": 4,
+          "not_assessable_reason": null
+        },
+        "intention_to_use": {
+          "score": 3,
+          "not_assessable_reason": null
+        }
+      },
+      "rating_reasons": "Appeal is mixed: monthly cleaning refills with bottle collection in Kwun Tong fits the persona's time-saving and return-reduction priorities, but the material does not show a concrete flexible delivery routine or refill quantities, which tempers attraction. Usefulness is high because the concept directly reduces shopping and bottle-return trips, covers Kwun Tong and offers simple Basic and Family plans; it is not stronger because delivery management and bottle-return rules remain vague. Ease of use is not assessable because no product interaction or task was observed. Trust is high for clarity: the material explicitly labels the service as invented, states that the prototype takes no payment or registration and makes no verified environmental impact claims; operational and real-service proof are still absent. Intention to use is mixed: a free trial and covered district make trying plausible, but unclear trial terms, delivery flexibility and refill value keep hypothetical interest moderate rather than strong.",
+      "strengths": [
+        "Kwun Tong is explicitly listed as covered, matching the persona's district.",
+        "Monthly delivery includes collection of empty reusable bottles at the next delivery, reducing separate return trips.",
+        "The Basic plan is presented as HK$268 per month with three cleaning refills, reusable bottles and one scheduled monthly delivery.",
+        "The Family plan adds a larger five-refill option at HK$398 per month for larger households.",
+        "The signup form captures household size, preferred refill scent and delivery notes, which could support a more tailored routine.",
+        "The concept is transparent that it is an invented static demonstration, takes no payments or registration and does not claim verified impact figures."
+      ],
+      "problems": [
+        {
+          "text": "The material mentions flexible refill preferences but does not specify skip, reschedule, delivery-window, vacation-hold or account-management options; this materially weakens the promised time-saving routine for a busy adult managing deliveries.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "Refill pack sizes, concentration or expected yield are not given, so the monthly adequacy of three refills and the relative value of the HK$268 Basic plan versus the HK$398 Family plan cannot be assessed.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "Bottle return is described only as collecting empty bottles at the next delivery, with no detail on accepted bottle types, cleaning requirements, missing or damaged bottles, or whether returns are required.",
+          "task_id": null,
+          "severity": "minor"
+        },
+        {
+          "text": "The free trial is described only as a chance to explore the routine; trial length, eligibility, post-trial commitment, cancellation terms and payment timing are not specified.",
+          "task_id": null,
+          "severity": "minor"
+        }
+      ],
+      "suggestions": [
+        "Add concrete delivery controls such as choosing a delivery window, skipping a month, rescheduling and pausing during holidays.",
+        "Clarify the bottle-return process: which bottles are accepted, whether rinsing is needed, what happens with damaged or missing bottles and how collection is confirmed.",
+        "Publish refill sizes, concentration or yield and an estimated household duration so the HK$268 and HK$398 plans can be compared practically.",
+        "State free-trial length, eligibility, what happens after the trial and any commitment or cancellation terms, while retaining the no-payment prototype disclosure.",
+        "Provide a simple way to adjust refill mix and scent preferences without requiring full account management.",
+        "Show a Kwun Tong coverage confirmation during signup or address entry so the persona can verify service fit immediately."
+      ],
+      "pricing_feedback": "Literal prices are supplied as HK$268 per month for Basic and HK$398 per month for Family. For this moderate-price-sensitive persona, the prices cannot be judged as good or poor value without refill sizes, concentration or yield and delivery/return terms; no real price, adoption or demand is claimed."
+    },
+    {
+      "run_id": "run-20261019-005227-7dfe",
+      "user_id": "run-20261019-005227-7dfe-u00003",
+      "mode": "concept",
+      "ratings": {
+        "appeal": {
+          "score": 3,
+          "not_assessable_reason": null
+        },
+        "usefulness": {
+          "score": 3,
+          "not_assessable_reason": null
+        },
+        "ease_of_use": {
+          "score": null,
+          "not_assessable_reason": "no relevant product task attempted"
+        },
+        "trust": {
+          "score": 4,
+          "not_assessable_reason": null
+        },
+        "intention_to_use": {
+          "score": 3,
+          "not_assessable_reason": null
+        }
+      },
+      "rating_reasons": "Appeal is mixed: the reusable refill routine and the explicit Kwun Tong coverage are relevant to this persona, but the trial and subscription commitments are too loosely specified for a sceptical evidence-seeker. Usefulness is mixed: Basic at HK$268 per month and Family at HK$398 per month with their included refills are easy to compare at a high level, yet missing trial duration, cancellation terms, delivery scheduling and service commitments limit fit with the persona's priority of precise terms. Ease of use is not assessable because no product visit or task execution was supplied. Trust is fairly high because the material clearly identifies itself as an invented static prototype, states that it takes no payment and records no registration, claims no verified impact figures and calls delivery routes illustrative; the vague trial wording slightly lowers credibility. Intention to use is mixed: hypothetical interest in exploring a refill routine exists given the stated coverage and prices, but a sceptical reviewer would want trial terms, cancellation and service commitments before trying. This is not a claim of real demand.",
+      "strengths": [
+        "The material repeatedly identifies itself as an invented static demonstration, states that no payment is taken and that no registration is recorded, which supports transparency for a sceptical reviewer.",
+        "Basic at HK$268 per month and Family at HK$398 per month are presented with included refill counts, reusable bottles and one scheduled monthly delivery, making the two plans easy to compare at a high level.",
+        "The delivery page explicitly states that Kwun Tong is covered, matching the persona's district and the value proposition's illustrative coverage.",
+        "The FAQ addresses whether environmental claims are verified and states that no impact figures are claimed and actual impact would need measurement, which is unusually clear for a concept."
+      ],
+      "problems": [
+        {
+          "text": "The free trial is not defined: no duration, eligibility, included items, or whether payment details would be required. The FAQ only describes it as a chance to explore and says the prototype takes no payment, which does not answer the persona's need for precise trial terms.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "Monthly prices are shown, but there is no stated minimum term, cancellation or pause process, plan-change condition, or other subscription commitment. This materially weakens trust for a reviewer focused on unclear subscription conditions.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "Delivery and bottle-collection commitments are vague: the plans mention one scheduled monthly delivery and returning empty bottles at the next delivery, but no delivery window, scheduling process, missed-delivery handling or collection conditions are described.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "The sign-up form's Region field offers only Kowloon, Hong Kong Island and New Territories, not a district selector, so a user cannot confirm Kwun Tong coverage within the form despite district-level coverage information elsewhere.",
+          "task_id": null,
+          "severity": "minor"
+        },
+        {
+          "text": "The sign-up form asks for a single Preferred refill scent while the plans include three or five cleaning refills; it is unclear how one scent choice maps to laundry, dish and multi-surface products or to the Family plan's larger refill count.",
+          "task_id": null,
+          "severity": "minor"
+        }
+      ],
+      "suggestions": [
+        "Add explicit trial terms: duration, what is included, any eligibility limit, whether payment details are needed and what happens at the end of the trial.",
+        "State subscription commitments plainly: minimum term if any, cancellation and pause rules, plan-change conditions and whether prices can change.",
+        "Describe delivery and bottle-collection commitments in more detail, including scheduling, collection conditions and what happens if a delivery or collection is missed.",
+        "Replace or supplement the broad Region field with a district or coverage check so users can confirm Kwun Tong or another listed area before proceeding.",
+        "Clarify how refill preferences work across the included laundry, dish and multi-surface products, especially for the Family plan's five refills.",
+        "Keep the existing prototype disclaimers prominent and add a short note that the trial is illustrative only in this static demonstration."
+      ],
+      "pricing_feedback": "Literal prices are supplied as HK$268 per month for Basic and HK$398 per month for Family. The price points are visible and comparable, but value cannot be judged without refill sizes, product brands, delivery fees, trial terms and subscription commitments; no real demand or conversion inference is made."
+    },
+    {
+      "run_id": "run-20261019-005227-7dfe",
+      "user_id": "run-20261019-005227-7dfe-u00004",
+      "mode": "concept",
+      "ratings": {
+        "appeal": {
+          "score": 3,
+          "not_assessable_reason": null
+        },
+        "usefulness": {
+          "score": 3,
+          "not_assessable_reason": null
+        },
+        "ease_of_use": {
+          "score": null,
+          "not_assessable_reason": "no relevant product task attempted"
+        },
+        "trust": {
+          "score": 4,
+          "not_assessable_reason": null
+        },
+        "intention_to_use": {
+          "score": 3,
+          "not_assessable_reason": null
+        }
+      },
+      "rating_reasons": "Appeal is mixed: the concept presents a simple monthly refill routine, explicit Kwun Tong coverage and clear Basic/Family prices, but a first-time refill customer who wants to know exactly what arrives still lacks refill volumes, bottle counts and trial terms. Usefulness is mixed for the same reason: the Basic plan at HK$268 per month and Family plan at HK$398 per month are stated with reusable bottles and monthly delivery, and the FAQ explains the refill cycle, but practical details about bottle returns and what the free trial includes are thin. Trust is relatively high because the material repeatedly labels the service as invented and says no impact figures are claimed, no registration is recorded and no payment is taken; however, some plan and trial wording remains vague. Intention to use is hypothetical and mixed: the Kwun Tong coverage and free-trial entry point may prompt interest, but the missing operational details reduce confidence for an unfamiliar refill customer. Ease of use cannot be assessed because this is a concept review with no observed interface use.",
+      "strengths": [
+        "States the Basic plan price and contents clearly: HK$268 per month, three household cleaning refills, reusable bottles and one scheduled monthly delivery.",
+        "Explicitly lists Kwun Tong as covered while marking routes as illustrative prototype details.",
+        "Explains the intended refill cycle: monthly delivery brings refills and collects empty reusable bottles.",
+        "Uses transparent disclaimers that the service is invented, takes no payment and claims no measured environmental impact.",
+        "The signup form specification includes household size, region, optional building/flat and delivery notes, which are relevant for planning deliveries."
+      ],
+      "problems": [
+        {
+          "text": "The plans list three or five refills but do not state refill volumes, bottle sizes or how many reusable bottles are supplied, so the customer cannot tell exactly what arrives each month.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "The free trial is described only as a chance to explore a refill routine; trial length, included products, payment or commitment after the trial, and cancellation terms are not stated.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "Bottle return is described only as returning empty bottles at the next delivery; the concept does not explain how many empties are accepted, whether cleaning is required, or what happens if bottles are missing.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "The signup form collects region rather than district, while delivery coverage is listed by district; a Kwun Tong customer cannot confirm eligibility within the form itself.",
+          "task_id": null,
+          "severity": "minor"
+        },
+        {
+          "text": "The signup form has a single preferred refill scent even though the plan contains laundry, dish and multi-surface products, leaving it unclear whether one scent applies to all refills.",
+          "task_id": null,
+          "severity": "minor"
+        }
+      ],
+      "suggestions": [
+        "Add exact monthly contents per plan: refill volumes, bottle sizes, number of reusable bottles and which products are included.",
+        "Explain the free trial in concrete terms: duration, included items, whether payment details are needed, what happens afterward, and how to cancel.",
+        "Detail the bottle-return process, including how many empties are collected, accepted condition, schedule and missing-bottle policy.",
+        "Add a district selector in signup and show a clear covered/not-covered confirmation for Kwun Tong before proceeding.",
+        "Clarify whether the selected refill scent applies to all products or allow scent preferences per product.",
+        "State how refill preferences can be changed after signup, even if account management is outside the static demonstration."
+      ],
+      "pricing_feedback": "The concept states Basic at HK$268 per month and Family at HK$398 per month. Because refill volumes and bottle counts are not specified, the per-refill value and fit with a moderately price-sensitive household cannot be judged from the supplied material."
+    },
+    {
+      "run_id": "run-20261019-005227-7dfe",
+      "user_id": "run-20261019-005227-7dfe-u00005",
+      "mode": "concept",
+      "ratings": {
+        "appeal": {
+          "score": 4,
+          "not_assessable_reason": null
+        },
+        "usefulness": {
+          "score": 4,
+          "not_assessable_reason": null
+        },
+        "ease_of_use": {
+          "score": null,
+          "not_assessable_reason": "no relevant product task attempted"
+        },
+        "trust": {
+          "score": 4,
+          "not_assessable_reason": null
+        },
+        "intention_to_use": {
+          "score": 4,
+          "not_assessable_reason": null
+        }
+      },
+      "rating_reasons": "Appeal is high: monthly household cleaning refills in reusable bottles with Kwun Tong explicitly covered and two plan sizes match this persona's packaging-reduction goal, though the absence of any impact evidence and thin bottle-handling detail dampens enthusiasm. Usefulness is high for a routine household cleaning need, since the material names laundry, dish and multi-surface refills, includes reusable bottles and a scheduled monthly delivery, and the signup form collects household size, region and delivery notes; practical collection rules are still underspecified. Ease of use is not assessable because this is a static concept review with no product visit or attempted task. Trust is high on clarity of evidence: the pages repeatedly label the service as invented/synthetic, state that no payment or registration occurs, mark routes as illustrative, and the FAQ explicitly says no impact figures are claimed and actual impact would need measurement; the missing bottle-handling specifics limit confidence for a transparency-focused reviewer. Intention to use is hypothetically high given the free trial, confirmed Kwun Tong listing and described refill-and-collect cycle, tempered by the lack of impact measurement and collection-practicality detail.",
+      "strengths": [
+        "Basic plan is stated at HK$268 per month and Family plan at HK$398 per month, with refill counts and included reusable bottles and monthly delivery.",
+        "Kwun Tong is explicitly listed under Kowloon delivery areas and separately called out as covered.",
+        "The refill cycle is described: monthly delivery brings refills and collects empty reusable bottles.",
+        "The material openly labels itself as an invented/static prototype, states nothing is registered or transmitted, and the FAQ says no impact figures are claimed."
+      ],
+      "problems": [
+        {
+          "text": "Bottle-handling guidance is limited: empty bottles are said to be collected at the next delivery, but bottle condition, cleaning, caps or missed-collection rules are not explained.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "No measured environmental impact or verification method is supplied; the FAQ states actual impact would need measurement, so the persona's impact-evidence priority cannot be checked.",
+          "task_id": null,
+          "severity": "major"
+        },
+        {
+          "text": "Flexible refill preferences are mentioned, but account management is stated to be outside the static demonstration, so the claimed flexibility cannot be reviewed.",
+          "task_id": null,
+          "severity": "minor"
+        },
+        {
+          "text": "Delivery coverage is explicitly illustrative; Kwun Tong is listed, but delivery-day choice, route schedule and confirmation process are not shown.",
+          "task_id": null,
+          "severity": "minor"
+        }
+      ],
+      "suggestions": [
+        "Add practical bottle-handling detail: bottle condition checks, cleaning guidance, cap/spare-part handling and missed-collection rules.",
+        "Describe an impact-measurement approach or state what evidence would be provided later, without asserting unverified environmental claims.",
+        "Clarify the monthly delivery schedule and how a household confirms or changes a delivery day in the concept.",
+        "Explain trial duration, cancellation terms and a per-refill cost breakdown so a moderately price-sensitive household can judge value beyond the headline monthly prices."
+      ],
+      "pricing_feedback": "Literal prices are HK$268 per month for Basic and HK$398 per month for Family. The concept gives no trial length, cancellation terms or per-refill breakdown, so value beyond the headline monthly prices is hard to judge for a moderately price-sensitive household."
+    }
+  ],
+  "usage": [
+    {
+      "run_id": "run-20261019-005227-7dfe",
+      "user_id": "run-20261019-005227-7dfe-u00001",
+      "llm_calls": 2,
+      "input_tokens": 5659,
+      "output_tokens": 3402,
+      "seconds": 18.783644000068307,
+      "cost_hkd": null
+    },
+    {
+      "run_id": "run-20261019-005227-7dfe",
+      "user_id": "run-20261019-005227-7dfe-u00002",
+      "llm_calls": 1,
+      "input_tokens": 2106,
+      "output_tokens": 6077,
+      "seconds": 38.66078458307311,
+      "cost_hkd": null
+    },
+    {
+      "run_id": "run-20261019-005227-7dfe",
+      "user_id": "run-20261019-005227-7dfe-u00003",
+      "llm_calls": 2,
+      "input_tokens": 5470,
+      "output_tokens": 4402,
+      "seconds": 26.230384499998763,
+      "cost_hkd": null
+    },
+    {
+      "run_id": "run-20261019-005227-7dfe",
+      "user_id": "run-20261019-005227-7dfe-u00004",
+      "llm_calls": 1,
+      "input_tokens": 2113,
+      "output_tokens": 3613,
+      "seconds": 20.43225924996659,
+      "cost_hkd": null
+    },
+    {
+      "run_id": "run-20261019-005227-7dfe",
+      "user_id": "run-20261019-005227-7dfe-u00005",
+      "llm_calls": 2,
+      "input_tokens": 5235,
+      "output_tokens": 4489,
+      "seconds": 25.342047874815762,
+      "cost_hkd": null
+    }
+  ],
+  "aggregate": {
+    "completed": 5,
+    "ratings": {
+      "appeal": {
+        "counts": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 1,
+          "5": 0
+        },
+        "eligible": 5,
+        "not_assessable": 0,
+        "missing": 0,
+        "mean": 3.2
+      },
+      "usefulness": {
+        "counts": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 2,
+          "5": 0
+        },
+        "eligible": 5,
+        "not_assessable": 0,
+        "missing": 0,
+        "mean": 3.4
+      },
+      "ease_of_use": {
+        "counts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "eligible": 0,
+        "not_assessable": 5,
+        "missing": 0,
+        "mean": null
+      },
+      "trust": {
+        "counts": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 4,
+          "5": 0
+        },
+        "eligible": 5,
+        "not_assessable": 0,
+        "missing": 0,
+        "mean": 3.8
+      },
+      "intention_to_use": {
+        "counts": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 1,
+          "5": 0
+        },
+        "eligible": 5,
+        "not_assessable": 0,
+        "missing": 0,
+        "mean": 3.2
+      }
+    },
+    "tasks": {},
+    "appeal_signal": {
+      "numerator": 1,
+      "denominator": 5,
+      "share": 0.2
+    },
+    "adoption_interest_signal": {
+      "numerator": 1,
+      "denominator": 5,
+      "share": 0.2
+    },
+    "coverage": {
+      "requested": 5,
+      "status_counts": {
+        "queued": 0,
+        "running": 0,
+        "completed": 5,
+        "failed": 0,
+        "cancelled": 0
+      },
+      "completed": 5,
+      "failed": 0,
+      "cancelled": 0,
+      "settled": true,
+      "interim": false,
+      "accounting_valid": true
+    },
+    "individual_mode": false,
+    "segments": {
+      "Price-sensitive household": {
+        "completed": 1,
+        "ratings": {
+          "appeal": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          },
+          "usefulness": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          },
+          "ease_of_use": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 0,
+            "not_assessable": 1,
+            "missing": 0,
+            "mean": null
+          },
+          "trust": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          },
+          "intention_to_use": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          }
+        },
+        "tasks": {},
+        "appeal_signal": {
+          "numerator": 0,
+          "denominator": 1,
+          "share": 0.0
+        },
+        "adoption_interest_signal": {
+          "numerator": 0,
+          "denominator": 1,
+          "share": 0.0
+        }
+      },
+      "Busy working adult": {
+        "completed": 1,
+        "ratings": {
+          "appeal": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          },
+          "usefulness": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 4.0
+          },
+          "ease_of_use": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 0,
+            "not_assessable": 1,
+            "missing": 0,
+            "mean": null
+          },
+          "trust": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 4.0
+          },
+          "intention_to_use": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          }
+        },
+        "tasks": {},
+        "appeal_signal": {
+          "numerator": 0,
+          "denominator": 1,
+          "share": 0.0
+        },
+        "adoption_interest_signal": {
+          "numerator": 0,
+          "denominator": 1,
+          "share": 0.0
+        }
+      },
+      "Sceptical evidence-seeker": {
+        "completed": 1,
+        "ratings": {
+          "appeal": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          },
+          "usefulness": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          },
+          "ease_of_use": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 0,
+            "not_assessable": 1,
+            "missing": 0,
+            "mean": null
+          },
+          "trust": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 4.0
+          },
+          "intention_to_use": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          }
+        },
+        "tasks": {},
+        "appeal_signal": {
+          "numerator": 0,
+          "denominator": 1,
+          "share": 0.0
+        },
+        "adoption_interest_signal": {
+          "numerator": 0,
+          "denominator": 1,
+          "share": 0.0
+        }
+      },
+      "First-time refill customer": {
+        "completed": 1,
+        "ratings": {
+          "appeal": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          },
+          "usefulness": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          },
+          "ease_of_use": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 0,
+            "not_assessable": 1,
+            "missing": 0,
+            "mean": null
+          },
+          "trust": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 4.0
+          },
+          "intention_to_use": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 1,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 3.0
+          }
+        },
+        "tasks": {},
+        "appeal_signal": {
+          "numerator": 0,
+          "denominator": 1,
+          "share": 0.0
+        },
+        "adoption_interest_signal": {
+          "numerator": 0,
+          "denominator": 1,
+          "share": 0.0
+        }
+      },
+      "Sustainability-focused household": {
+        "completed": 1,
+        "ratings": {
+          "appeal": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 4.0
+          },
+          "usefulness": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 4.0
+          },
+          "ease_of_use": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0
+            },
+            "eligible": 0,
+            "not_assessable": 1,
+            "missing": 0,
+            "mean": null
+          },
+          "trust": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 4.0
+          },
+          "intention_to_use": {
+            "counts": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 1,
+              "5": 0
+            },
+            "eligible": 1,
+            "not_assessable": 0,
+            "missing": 0,
+            "mean": 4.0
+          }
+        },
+        "tasks": {},
+        "appeal_signal": {
+          "numerator": 1,
+          "denominator": 1,
+          "share": 1.0
+        },
+        "adoption_interest_signal": {
+          "numerator": 1,
+          "denominator": 1,
+          "share": 1.0
+        }
+      }
+    }
+  },
+  "diversity": {
+    "unique_profiles": 5,
+    "duplicate_profiles": 0,
+    "per_segment": {
+      "Price-sensitive household": 1,
+      "Busy working adult": 1,
+      "Sceptical evidence-seeker": 1,
+      "First-time refill customer": 1,
+      "Sustainability-focused household": 1
+    }
+  },
+  "findings": [
+    {
+      "finding_id": "run-20261019-005227-7dfe-f001",
+      "run_id": "run-20261019-005227-7dfe",
+      "theme": "Bottle return and collection",
+      "severity": "major",
+      "task_id": null,
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00001",
+        "run-20261019-005227-7dfe-u00002",
+        "run-20261019-005227-7dfe-u00003",
+        "run-20261019-005227-7dfe-u00004",
+        "run-20261019-005227-7dfe-u00005"
+      ],
+      "eligible_denominator": 5,
+      "evidence_refs": [
+        "run-20261019-005227-7dfe-u00001:evaluation",
+        "run-20261019-005227-7dfe-u00002:evaluation",
+        "run-20261019-005227-7dfe-u00003:evaluation",
+        "run-20261019-005227-7dfe-u00004:evaluation",
+        "run-20261019-005227-7dfe-u00005:evaluation"
+      ]
+    },
+    {
+      "finding_id": "run-20261019-005227-7dfe-f002",
+      "run_id": "run-20261019-005227-7dfe",
+      "theme": "Delivery and coverage",
+      "severity": "major",
+      "task_id": null,
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00001",
+        "run-20261019-005227-7dfe-u00002",
+        "run-20261019-005227-7dfe-u00003",
+        "run-20261019-005227-7dfe-u00004",
+        "run-20261019-005227-7dfe-u00005"
+      ],
+      "eligible_denominator": 5,
+      "evidence_refs": [
+        "run-20261019-005227-7dfe-u00001:evaluation",
+        "run-20261019-005227-7dfe-u00002:evaluation",
+        "run-20261019-005227-7dfe-u00003:evaluation",
+        "run-20261019-005227-7dfe-u00004:evaluation",
+        "run-20261019-005227-7dfe-u00005:evaluation"
+      ]
+    },
+    {
+      "finding_id": "run-20261019-005227-7dfe-f003",
+      "run_id": "run-20261019-005227-7dfe",
+      "theme": "Trial and cancellation",
+      "severity": "major",
+      "task_id": null,
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00001",
+        "run-20261019-005227-7dfe-u00002",
+        "run-20261019-005227-7dfe-u00003",
+        "run-20261019-005227-7dfe-u00004"
+      ],
+      "eligible_denominator": 5,
+      "evidence_refs": [
+        "run-20261019-005227-7dfe-u00001:evaluation",
+        "run-20261019-005227-7dfe-u00002:evaluation",
+        "run-20261019-005227-7dfe-u00003:evaluation",
+        "run-20261019-005227-7dfe-u00004:evaluation"
+      ]
+    },
+    {
+      "finding_id": "run-20261019-005227-7dfe-f004",
+      "run_id": "run-20261019-005227-7dfe",
+      "theme": "Other observations",
+      "severity": "major",
+      "task_id": null,
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00002",
+        "run-20261019-005227-7dfe-u00003",
+        "run-20261019-005227-7dfe-u00004"
+      ],
+      "eligible_denominator": 5,
+      "evidence_refs": [
+        "run-20261019-005227-7dfe-u00002:evaluation",
+        "run-20261019-005227-7dfe-u00003:evaluation",
+        "run-20261019-005227-7dfe-u00004:evaluation"
+      ]
+    },
+    {
+      "finding_id": "run-20261019-005227-7dfe-f005",
+      "run_id": "run-20261019-005227-7dfe",
+      "theme": "Price and value",
+      "severity": "major",
+      "task_id": null,
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00001",
+        "run-20261019-005227-7dfe-u00003"
+      ],
+      "eligible_denominator": 5,
+      "evidence_refs": [
+        "run-20261019-005227-7dfe-u00001:evaluation",
+        "run-20261019-005227-7dfe-u00003:evaluation"
+      ]
+    },
+    {
+      "finding_id": "run-20261019-005227-7dfe-f006",
+      "run_id": "run-20261019-005227-7dfe",
+      "theme": "Trust and evidence",
+      "severity": "major",
+      "task_id": null,
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00003",
+        "run-20261019-005227-7dfe-u00005"
+      ],
+      "eligible_denominator": 5,
+      "evidence_refs": [
+        "run-20261019-005227-7dfe-u00003:evaluation",
+        "run-20261019-005227-7dfe-u00005:evaluation"
+      ]
+    }
+  ],
+  "topic_index": [
+    {
+      "topic": "Bottle return and collection",
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00001",
+        "run-20261019-005227-7dfe-u00002",
+        "run-20261019-005227-7dfe-u00003",
+        "run-20261019-005227-7dfe-u00004",
+        "run-20261019-005227-7dfe-u00005"
+      ],
+      "denominator": 5,
+      "evidence": [
+        {
+          "user_id": "run-20261019-005227-7dfe-u00001",
+          "text": "Recurring-cost conditions are missing: no delivery fee, minimum term, pause or cancellation terms, and no bottle-return or deposit consequence if a reusable bottle is not handed back.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00002",
+          "text": "Bottle return is described only as collecting empty bottles at the next delivery, with no detail on accepted bottle types, cleaning requirements, missing or damaged bottles, or whether returns are required.",
+          "severity": "minor"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00003",
+          "text": "Delivery and bottle-collection commitments are vague: the plans mention one scheduled monthly delivery and returning empty bottles at the next delivery, but no delivery window, scheduling process, missed-delivery handling or collection conditions are described.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00004",
+          "text": "The plans list three or five refills but do not state refill volumes, bottle sizes or how many reusable bottles are supplied, so the customer cannot tell exactly what arrives each month.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00004",
+          "text": "Bottle return is described only as returning empty bottles at the next delivery; the concept does not explain how many empties are accepted, whether cleaning is required, or what happens if bottles are missing.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00005",
+          "text": "Bottle-handling guidance is limited: empty bottles are said to be collected at the next delivery, but bottle condition, cleaning, caps or missed-collection rules are not explained.",
+          "severity": "major"
+        }
+      ]
+    },
+    {
+      "topic": "Delivery and coverage",
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00001",
+        "run-20261019-005227-7dfe-u00002",
+        "run-20261019-005227-7dfe-u00003",
+        "run-20261019-005227-7dfe-u00004",
+        "run-20261019-005227-7dfe-u00005"
+      ],
+      "denominator": 5,
+      "evidence": [
+        {
+          "user_id": "run-20261019-005227-7dfe-u00001",
+          "text": "The free trial is described only as a chance to explore a refill routine; duration, what is delivered, and whether it rolls into the HK$268 monthly charge are not stated.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00001",
+          "text": "Recurring-cost conditions are missing: no delivery fee, minimum term, pause or cancellation terms, and no bottle-return or deposit consequence if a reusable bottle is not handed back.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00001",
+          "text": "The signup form captures only a broad Region (Kowloon, Hong Kong Island, New Territories) with no district selection, so coverage cannot be confirmed against the delivery list at signup and address details sit in optional free-text fields.",
+          "severity": "minor"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00002",
+          "text": "The material mentions flexible refill preferences but does not specify skip, reschedule, delivery-window, vacation-hold or account-management options; this materially weakens the promised time-saving routine for a busy adult managing deliveries.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00002",
+          "text": "Bottle return is described only as collecting empty bottles at the next delivery, with no detail on accepted bottle types, cleaning requirements, missing or damaged bottles, or whether returns are required.",
+          "severity": "minor"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00003",
+          "text": "Delivery and bottle-collection commitments are vague: the plans mention one scheduled monthly delivery and returning empty bottles at the next delivery, but no delivery window, scheduling process, missed-delivery handling or collection conditions are described.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00003",
+          "text": "The sign-up form's Region field offers only Kowloon, Hong Kong Island and New Territories, not a district selector, so a user cannot confirm Kwun Tong coverage within the form despite district-level coverage information elsewhere.",
+          "severity": "minor"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00004",
+          "text": "Bottle return is described only as returning empty bottles at the next delivery; the concept does not explain how many empties are accepted, whether cleaning is required, or what happens if bottles are missing.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00004",
+          "text": "The signup form collects region rather than district, while delivery coverage is listed by district; a Kwun Tong customer cannot confirm eligibility within the form itself.",
+          "severity": "minor"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00005",
+          "text": "Bottle-handling guidance is limited: empty bottles are said to be collected at the next delivery, but bottle condition, cleaning, caps or missed-collection rules are not explained.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00005",
+          "text": "Delivery coverage is explicitly illustrative; Kwun Tong is listed, but delivery-day choice, route schedule and confirmation process are not shown.",
+          "severity": "minor"
+        }
+      ]
+    },
+    {
+      "topic": "Trial and cancellation",
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00001",
+        "run-20261019-005227-7dfe-u00002",
+        "run-20261019-005227-7dfe-u00003",
+        "run-20261019-005227-7dfe-u00004"
+      ],
+      "denominator": 5,
+      "evidence": [
+        {
+          "user_id": "run-20261019-005227-7dfe-u00001",
+          "text": "The free trial is described only as a chance to explore a refill routine; duration, what is delivered, and whether it rolls into the HK$268 monthly charge are not stated.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00001",
+          "text": "Recurring-cost conditions are missing: no delivery fee, minimum term, pause or cancellation terms, and no bottle-return or deposit consequence if a reusable bottle is not handed back.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00002",
+          "text": "The free trial is described only as a chance to explore the routine; trial length, eligibility, post-trial commitment, cancellation terms and payment timing are not specified.",
+          "severity": "minor"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00003",
+          "text": "The free trial is not defined: no duration, eligibility, included items, or whether payment details would be required. The FAQ only describes it as a chance to explore and says the prototype takes no payment, which does not answer the persona's need for precise trial terms.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00003",
+          "text": "Monthly prices are shown, but there is no stated minimum term, cancellation or pause process, plan-change condition, or other subscription commitment. This materially weakens trust for a reviewer focused on unclear subscription conditions.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00004",
+          "text": "The free trial is described only as a chance to explore a refill routine; trial length, included products, payment or commitment after the trial, and cancellation terms are not stated.",
+          "severity": "major"
+        }
+      ]
+    },
+    {
+      "topic": "Other observations",
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00002",
+        "run-20261019-005227-7dfe-u00003",
+        "run-20261019-005227-7dfe-u00004"
+      ],
+      "denominator": 5,
+      "evidence": [
+        {
+          "user_id": "run-20261019-005227-7dfe-u00002",
+          "text": "Refill pack sizes, concentration or expected yield are not given, so the monthly adequacy of three refills and the relative value of the HK$268 Basic plan versus the HK$398 Family plan cannot be assessed.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00003",
+          "text": "The sign-up form asks for a single Preferred refill scent while the plans include three or five cleaning refills; it is unclear how one scent choice maps to laundry, dish and multi-surface products or to the Family plan's larger refill count.",
+          "severity": "minor"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00004",
+          "text": "The signup form has a single preferred refill scent even though the plan contains laundry, dish and multi-surface products, leaving it unclear whether one scent applies to all refills.",
+          "severity": "minor"
+        }
+      ]
+    },
+    {
+      "topic": "Price and value",
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00001",
+        "run-20261019-005227-7dfe-u00003"
+      ],
+      "denominator": 5,
+      "evidence": [
+        {
+          "user_id": "run-20261019-005227-7dfe-u00001",
+          "text": "No refill volume or unit size is given for the three Basic refills or five Family refills, so the monthly price cannot be converted into a per-refill or per-use cost — the comparison this household most wants against current spending.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00001",
+          "text": "Recurring-cost conditions are missing: no delivery fee, minimum term, pause or cancellation terms, and no bottle-return or deposit consequence if a reusable bottle is not handed back.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00003",
+          "text": "Monthly prices are shown, but there is no stated minimum term, cancellation or pause process, plan-change condition, or other subscription commitment. This materially weakens trust for a reviewer focused on unclear subscription conditions.",
+          "severity": "major"
+        }
+      ]
+    },
+    {
+      "topic": "Trust and evidence",
+      "supporting_user_ids": [
+        "run-20261019-005227-7dfe-u00003",
+        "run-20261019-005227-7dfe-u00005"
+      ],
+      "denominator": 5,
+      "evidence": [
+        {
+          "user_id": "run-20261019-005227-7dfe-u00003",
+          "text": "Monthly prices are shown, but there is no stated minimum term, cancellation or pause process, plan-change condition, or other subscription commitment. This materially weakens trust for a reviewer focused on unclear subscription conditions.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00005",
+          "text": "No measured environmental impact or verification method is supplied; the FAQ states actual impact would need measurement, so the persona's impact-evidence priority cannot be checked.",
+          "severity": "major"
+        },
+        {
+          "user_id": "run-20261019-005227-7dfe-u00005",
+          "text": "Flexible refill preferences are mentioned, but account management is stated to be outside the static demonstration, so the claimed flexibility cannot be reviewed.",
+          "severity": "minor"
+        }
+      ]
+    }
+  ]
+}
